@@ -13,10 +13,10 @@ int main(int argc, const char * argv[]) {
         int i;
         for (i = 0; i <= 10; i ++){
             
-            if (i%2 == 0) {
-                NSLog(@"Even");
+            if (i%3 == 0) {
+                NSLog(@"Divisible by 3");
             }else{
-                NSLog(@"Odd");
+                NSLog(@"Not divisible by 3");
             }
         }
     
