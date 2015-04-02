@@ -11,8 +11,13 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         int i;
-        for (i = 0; i <= 10000; i += 1000){
-            NSLog(@"%i\n", i);
+        for (i = 0; i <= 10; i ++){
+            
+            if (i%2 == 0) {
+                NSLog(@"Even");
+            }else{
+                NSLog(@"Odd");
+            }
         }
     
     }
